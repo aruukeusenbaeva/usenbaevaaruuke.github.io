@@ -299,6 +299,35 @@ active, a:hover{
     margin-top: 40vh;
     background-color: gray;
     color: #fff;
-    text-align: center;
     padding: 10px;
+}
+.footer h3{
+    text-align:center;
+    color:black;
+}
+.white a{
+    color:white;
+    font-weight: bold;
+}
+.container {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .container input[type="email"],
+  .container input[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .container input[type="submit"] {
+    background-color: darkred;
+    color: white;
+    border: none;
+  }
+.made h3{
+    text-align:right;
 }
