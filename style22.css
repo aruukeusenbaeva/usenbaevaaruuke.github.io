@@ -1,0 +1,159 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration:none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.head{
+    background-color: rgb(174, 163, 163);
+    color:whitesmoke;
+    font-family:bold;
+    text-transform: capitalize;
+    height:1.25em;
+    text-align: center;
+}
+.head a{
+    color:whitesmoke;
+    text-decoration: underline;
+}
+header a:hover{
+    color:red;
+}
+
+.navig{
+    background-color:  darkred;
+    height:5em;
+    width:100%; 
+    position:sticky;
+
+}
+label.logo{
+    color: white;
+    font-size: 1.5625em;
+    line-height: 3.125em;
+    padding: 0 6.25em;
+    font-weight: bold;
+}
+nav ul{
+    float: right;
+    margin-right:2.1875em;
+}
+nav ul li{
+    display:inline-block;
+    line-height: 5em;
+    margin:0 0.3125em;
+}
+nav ul li a{
+    color:white;
+    font-size: 16px;
+    padding:7px 13px;
+    border-radius: 3px;
+    text-transform: capitalize;
+}
+active, a:hover{
+    background: wheat;
+    transition: 1s;
+}
+.product-card {
+  width: 300px;
+  border: 0px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  text-align: center;
+  float: right;
+  margin-left: 15px;
+}
+
+.product-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
+
+.product-card h3 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.product-card p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+.product-card:hover {
+    transform: scale(1.05);
+    transition: transform 0.4s ease-in-out;
+  }  
+      .prod4 {
+        width: 300px;
+        border: 0px solid #ccc;
+        border-radius: 5px;
+        padding: 20px;
+        text-align: center;
+        float: right;
+        margin-left: 15px;
+      }
+      
+      .prod4 img {
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        margin-bottom: 10px;
+      }
+      
+      .prod4 h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .prod4 p {
+        font-size: 16px;
+        margin-bottom: 10px;
+      }
+      .prod4:hover {
+          transform: scale(1.05);
+          transition: transform 0.4s ease-in-out;
+      }
+      aside {
+        width:35vh;
+        flex: 2;
+        background-color: white;
+        padding: 20px;
+        margin-left: 10px;
+        background-color: white;
+        border-radius: 5px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        margin-bottom: 20px;
+      }
+      .sidebar li a {
+        display: block;
+        padding: 5px 10px;
+        font-size: 1.1rem;
+        color: #333;
+        text-decoration: none;
+      }
+aside .square li {
+  list-style-type: square;
+  margin-left:10px;
+}
+.button{
+  background-color: darkred;
+  color: white;
+  border: none;
+  transition: border-color 0.5s ease;
+  opacity: 0.8;
+}
+.button:hover {
+  border: 2px solid rgba(255, 255, 255, 0.6);
+  opacity: 1;
+}
+.center{
+  position: absolute;
+  top: 125%;
+  left: 50%;
+  display: block;
+}
+.inline-center{
+  display: inline;
+}
